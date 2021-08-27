@@ -5,6 +5,8 @@ from PIL import Image
 # 画像読み込みのために必要
 import time
 
+st.title("streamlit 超入門")
+
 
 # プログレスバーとは、少しずつバーが伸びていって進捗がわかるやつ（読み込みとかに使う）
 # プログレスバーのfor文が完成するまでは、それ以降の処理は行われない
@@ -24,8 +26,6 @@ for i in range(100):
 
 "Done!!"
 
-
-st.title("streamlit 超入門")
 
 st.write("Data Frame")
 
